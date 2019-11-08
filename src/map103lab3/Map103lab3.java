@@ -1,12 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package map103lab3;
+package MAP103Lab3;
 
 import java.util.Scanner;
 import java.util.Date;
+import map103lab3.Employee;
 
 public class Map103lab3 {
 
@@ -39,8 +35,8 @@ public class Map103lab3 {
                 System.out.println("Employee no:");
                 System.out.println(employees[2].getEmployeeNumber());
                 System.out.println(employees[2].getFirstName());
-
-                System.out.println(employees[2].getLastName());
+                
+ System.out.println(employees[2].getLastName());
                 System.out.println(employees[2].getBirthDate());
                 System.out.println(employees[2].getAge());
                 System.out.println("-----------------------");
